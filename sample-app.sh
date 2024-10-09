@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-trap 'rm -rf tempdir' EXIT
+trap 'rm -rf tempdir' 
 
 mkdir tempdir
 mkdir tempdir/templates
