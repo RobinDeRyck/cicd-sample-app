@@ -1,11 +1,6 @@
 #!/bin/bash
 set -euo pipefail
 
-if [ -d "tempdir" ]; then
-  echo "tempdir bestaat, verwijder het..."
-  rm -rf tempdir
-fi
-
 mkdir tempdir
 mkdir tempdir/templates
 mkdir tempdir/static
